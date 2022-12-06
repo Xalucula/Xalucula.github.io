@@ -1,4 +1,4 @@
-## CSS-Flexbox
+# CSS-Flexbox
 
 ### Введение
 
@@ -8,13 +8,13 @@
 В терминале выполните команду: `npm install`   
 Выполните работу в файле: `index.html` и `index.css`   
 
-Тебе нужно сделать страничку по [макету](https://www.figma.com/file/Ck1iGc8eouskvGGfC9mueI/ECB-Phase-0-tasks-Desktop-share?node-id=0%3A1).   
+Тебе нужно сделать страничку по [макету](https://www.figma.com/file/Ck1iGc8eouskvGGfC9mueI/ECB-Phase-0-tasks-Desktop-share?node-id=0%3A1) (необходима авторизация в `Figma`).   
 
-![screenshot](readme-assets/elbrus-kino-flex.png).
+![screenshot](readme-assets/elbrus-kino-flex.png)
 
 _Рисунок 1. Ориентировочный результат задания._
 
-_картинки к ElbrusKino ты найдешь в папке `img`_. Можно добавить свои картинки   
+_Картинки к ElbrusKino ты найдешь в папке `img`_. Можно добавить свои картинки   
 
 Для начала продумай план действий. Не забывай, что тебе тут будут необходимы `flexbox`. По каким блокам ты распределишь элементы? Где, какие свойства будешь использовать?
 
@@ -25,13 +25,3 @@ _картинки к ElbrusKino ты найдешь в папке `img`_. Мож
 ### Релиз 2. CSS.
 
 И, наконец, самое интересное. Стилизуй свой сайт. Старайся придерживаться примера на Рисунке 1. Тебе пригодятся следующие свойства: `display`, `justify-content`, `align-items`, `flex-wrap`, `margin`, `padding`, `flex-wrap`, `flex-shrink`, `flex-basis` и другие.
-
-
-### Релиз 3*. Поиграй.
-А теперь поиграй в игрушки. Проходить их полностью необязательно. Достаточно потратить на одну из них минут 30.
-
-
-__Игры:__
-
-- [Flexbox Froggy](https://flexboxfroggy.com/#ru)
-- [Flexbox TowerDefense](http://www.flexboxdefense.com/)
