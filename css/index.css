@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-color: #141414;
+  font-family: "Roboto Mono", monospace;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  line-height: 1;
+  font-size: 16px;
+}
+._container {
+  max-width: 1126px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #4520ab;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header__container {
+  display: flex;
+  padding: 16.5px 0;
+}
+.nav {
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  color: #7d63c4;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+  margin-right: 25px;
+  transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+  color: #ffbc5b;
+  cursor: pointer;
+}
+.nav a:active {
+  color: #ffbc5b;
+}
+.header-profile {
+  margin-left: auto;
+}
+.nav__icon {
+  display: flex;
+  align-items: center;
+}
+.nav__icon svg:hover path {
+  cursor: pointer;
+  stroke: #ffbc5b;
+}
+/* PAGE */
+
+.main-page {
+  margin-top: 132px;
+}
+.main-page-container,
+.recommendation-container {
+  margin-bottom: 100px;
+}
+.main__container-title,
+.recommendation_container-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  color: #ffbc5b;
+}
+
+.main-content,
+.recommendation-content {
+  display: flex;
+  align-items: center;
+}
+.main-content__list,
+.recommendation-content__list {
+  display: flex;
+  margin-top: 36px;
+}
+.main-content__item,
+.recommendation-content__item {
+  margin-right: 20px;
+  position: relative;
+}
+.main-content__img:hover,
+.recommendation-content__img:hover {
+  opacity: 0.5;
+  transition: opacity 1s;
+  cursor: pointer;
+}
+.main-content_rate,
+.recommendation-content_rate {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 52px;
+  height: 30px;
+  background: #ffbc5b;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.17em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-info,
+.recommendation-info {
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  margin-top: 18px;
+}
+.main-info__title,
+.recommendation-info__title {
+  color: #989898;
+}
+.main-info__text,
+.recommendation-info__text {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #515151;
+  margin-top: 8px;
+}
+.main-content__btn,
+.recommendation-content__btn {
+  margin-left: auto;
+}
